@@ -7,6 +7,7 @@ import {
 	Drawer,
 	Content
 } from "react-mdl"
+import Main from "./components/Main"
 
 class App extends React.Component {
 	render() {
@@ -31,6 +32,7 @@ class App extends React.Component {
 					</Drawer>
 					<Content>
 						<div className="page-content" />
+						<Main />
 					</Content>
 				</Layout>
 			</div>
