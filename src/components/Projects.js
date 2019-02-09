@@ -204,37 +204,10 @@ class Projects extends React.Component {
 					}
 					ripple
 				>
-					<Tab>
-						<i
-							style={{ color: "rgb(97, 218, 251)" }}
-							className="fab fa-react"
-							aria-hidden="true"
-						/>{" "}
-						React
-					</Tab>
-					<Tab>
-						<i
-							style={{ color: "#00B4DB" }}
-							className="fab fa-reacteurope"
-							aria-hidden="true"
-						/>{" "}
-						React Native
-					</Tab>
-					<Tab>
-						<i
-							style={{ color: "#e20000" }}
-							className="fab fa-angular"
-							aria-hidden="true"
-						/>{" "}
-						Angular
-					</Tab>
-					<Tab>
-						<ion-icon
-							name="logo-ionic"
-							style={{ color: "#5e2fff" }}
-						/>{" "}
-						Ionic
-					</Tab>
+					<Tab> React </Tab>
+					<Tab> React Native </Tab>
+					<Tab> Angular </Tab>
+					<Tab> Ionic </Tab>
 				</Tabs>
 
 				<Grid>
